@@ -2,7 +2,7 @@ baseURL = "https://abhinabphy.github.io/"
 languageCode = "en-us"
 theme = "poison"
 canonifyURLs = true
-relativeURLs = false
+relativeURLs = true
 pluralizelisttitles = false   # removes the automatically appended "s" on sidebar entries
 
 [outputs]
@@ -38,7 +38,7 @@ home = ["HTML", "RSS"]
     # facebook_url = "https://facebook.com"
     # flickr_url = "https://flickr.com"
     github_url = "https://github.com"
-    gitlab_url = "https://gitlab.com"
+    # gitlab_url = "https://gitlab.com"
    # instagram_url = "https://instagram.com"
     linkedin_url = "https://linkedin.com"
     # mastodon_url = "https://mastodon.social"
