@@ -3,15 +3,20 @@ languageCode = "en-us"
 theme = "poison"
 canonifyURLs = true
 relativeURLs = false
-
 pluralizelisttitles = false   # removes the automatically appended "s" on sidebar entries
+
+[outputs]
+home = ["HTML", "RSS"]
+
+
+
 
 # NOTE: If using Disqus as commenting engine, uncomment and configure this line
 # disqusShortname = "yourDisqusShortname"
 
 [params]
     brand = "Abhinab Das"                      # name of your site - appears in the sidebar
-     remote-brand_image = "/images/test.jpeg"    # path to the image shown in the sidebar
+    remote_brand_image = "https://commondatastorage.googleapis.com/codeskulptor-assets/week8-dart.png"  # path to the image shown in the sidebar
     description = "hehe..." # Used as default meta description if not specified in front matter
     dark_mode = true                      # optional - defaults to false
     # favicon = "favicon.png"             # path to favicon (defaults to favicon.png)
